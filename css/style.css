@@ -78,6 +78,10 @@ a .img-contenedor {
     color:#212529;
 }
 
+.contacto p{
+    /*text-transform: uppercase;*/
+    letter-spacing: 2px;
+}
 /* FOOTER */
 
 #footer {
@@ -100,6 +104,7 @@ a .img-contenedor {
 
 .footer-follow li {
     display: inline-block;
+    margin-top: 10px;
     margin-right: 10px;
     margin-bottom: 13px;
 }
