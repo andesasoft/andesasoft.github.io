@@ -1,0 +1,122 @@
+@charset "utf-8";
+
+/* CSS Document */
+
+
+/*HEADER*/
+
+header {
+    background-color: #ccc;
+}
+
+h1,
+h5 {
+    /*color: #31379A;*/
+    margin: 20px 0;
+    /*text-shadow: 2px 2px 5px rgba(51, 142, 246, 0.92);*/
+}
+
+.jumbotron {
+    background: #428BCA;
+    color: #fff;
+    padding: 20px 0;
+}
+
+
+/*MODULOS*/
+
+.modulos {
+    padding: 10px 15px;
+}
+
+a {
+    display: inline-block;
+}
+
+.img-modulo img {
+    width: 6em;
+}
+
+.contenedor-int {
+    margin: 10px 0 20px 5px;
+
+}
+
+a .img-contenedor {
+    position: relative;
+    }
+
+.img-modulo .img-header b {
+    display: block;
+    margin-top: 20px;
+}
+
+.img-etiqueta {
+    position: absolute;
+    font-size: .75em;
+    /*margin-top: 100px;*/
+    /*-moz-margin-left: -100px;*/
+}
+
+
+/* CONTACTO */
+
+.contacto {
+    background-color: #aaa;
+    /*margin: 15px 0px;*/
+    /*text-align: center;*/
+}
+
+.contacto i {
+    font-size: 36px;    
+    color: #428BCA;
+    margin-bottom: 20px;
+}
+
+.contacto a{
+    text-decoration: none;
+    color:#212529;
+}
+
+/* FOOTER */
+
+#footer {
+    position: relative;
+}
+
+.footer-logo {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.footer-logo>a>img {
+    max-height: 80px;
+}
+
+/*.footer-follow {
+    text-align: center;
+    margin-bottom: 20px;
+}*/
+
+.footer-follow li {
+    display: inline-block;
+    margin-right: 10px;
+    margin-bottom: 13px;
+}
+
+.footer-follow li a {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  border-radius: 3px;
+  background-color: #428BCA;
+  /* background-color: #6195FF; */
+  color:#FFF;
+}
+
+.footer-copyright {
+    font-size: 14px;
+    text-transform: uppercase;
+}
